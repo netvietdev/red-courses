@@ -155,9 +155,6 @@
     <Content Include="Scripts\bower.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="readme.md" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
