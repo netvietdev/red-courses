@@ -1,0 +1,55 @@
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\RedCourses.UI.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\RedCourses.UI.pdb
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\Antlr3.Runtime.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\Microsoft.Web.Infrastructure.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\Newtonsoft.Json.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Net.Http.Formatting.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Http.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Http.WebHost.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Mvc.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Optimization.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Razor.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Deployment.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Razor.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\WebGrease.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\Newtonsoft.Json.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Net.Http.Formatting.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Http.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Http.WebHost.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Mvc.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.Razor.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Deployment.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Razor.xml
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\obj\Debug\RedCourses.UI.dll
+F:\Wip\Practices\Angularjs Courses\RedCourses\RedCourses.UI\obj\Debug\RedCourses.UI.pdb
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\RedCourses.UI.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\RedCourses.UI.pdb
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\Antlr3.Runtime.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\Microsoft.Web.Infrastructure.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\Newtonsoft.Json.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Net.Http.Formatting.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Http.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Http.WebHost.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Mvc.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Optimization.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Razor.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Deployment.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Razor.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\WebGrease.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\Newtonsoft.Json.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Net.Http.Formatting.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Http.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Http.WebHost.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Mvc.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.Razor.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Deployment.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\bin\System.Web.WebPages.Razor.xml
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\obj\Debug\RedCourses.UI.csprojResolveAssemblyReference.cache
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\obj\Debug\RedCourses.UI.dll
+F:\Wip\Practices\AngularjsCourses\RedCourses\RedCourses.UI\obj\Debug\RedCourses.UI.pdb
