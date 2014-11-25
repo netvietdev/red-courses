@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html data-ng-app="Red">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -8,5 +8,7 @@
 </head>
 <body>
     @RenderBody()
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/app")
 </body>
 </html>
