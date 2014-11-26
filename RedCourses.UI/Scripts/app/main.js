@@ -7,6 +7,16 @@ app.config(['$routeProvider', function ($routeProvider) {
                 templateUrl: "/Home/ListCourses",
                 controller: "WelcomeCtrl"
             })
+        .when('/courses/new',
+            {
+                templateUrl: "/Home/AddCourse",
+                controller: "AddCourseCtrl"
+            })
+        .when('/courses/edit/:id',
+            {
+                templateUrl: "/Home/AddCourse",
+                controller: "EditCourseCtrl"
+            })
         .when('/courses/:id',
             {
                 templateUrl: "/Home/ViewCourse",

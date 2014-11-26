@@ -1,8 +1,12 @@
 ﻿<h2>List of courses</h2>
 
+<a data-ng-href="#/courses/new">Add a new course</a>
+
 <ul data-ng-repeat="course in courses">
     <li>
         <a data-ng-href="#/courses/{{course.id}}">{{course.name}}</a>
+        <br />
+        <a data-ng-href="#/courses/edit/{{course.id}}">Edit</a>
         <p>{{course.description}}</p>
     </li>
 </ul>

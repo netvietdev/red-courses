@@ -6,5 +6,6 @@ appServices.factory('CoursesFactory', ['$resource', function ($resource) {
 
 appServices.factory('CourseFactory', ['$resource', function ($resource) {
     return $resource('/api/Courses/:id',
-        { id: "@id" });
+        { id: "@id" },
+        { 'update': { method: 'PUT' } });
 }]);
