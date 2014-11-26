@@ -4,7 +4,7 @@ using System.Web.Http;
 
 namespace RedCourses.UI.Controllers.Apis
 {
-    public class CourseController : ApiController
+    public class CoursesController : ApiController
     {
         // GET: /api/Course
         public dynamic GetAllCourses()

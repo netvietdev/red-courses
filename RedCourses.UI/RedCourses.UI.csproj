@@ -121,7 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\Apis\CourseController.cs" />
+    <Compile Include="Controllers\Apis\CoursesController.cs" />
     <Compile Include="Controllers\Apis\SetupController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -946,6 +946,9 @@
       <Project>{6973f6c1-f5e6-4a6c-b9f2-c3ee440253d6}</Project>
       <Name>RedCourses.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ViewCourse.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

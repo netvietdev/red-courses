@@ -13,5 +13,10 @@ namespace RedCourses.UI.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult ViewCourse()
+        {
+            return PartialView();
+        }
     }
 }

@@ -2,6 +2,7 @@
 
 <ul data-ng-repeat="course in courses">
     <li>
-        <a href="">{{course.name}}</a>
+        <a data-ng-href="#/courses/{{course.id}}">{{course.name}}</a>
+        <p>{{course.description}}</p>
     </li>
 </ul>
