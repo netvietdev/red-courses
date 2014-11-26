@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9BDB86
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedCourses.Services", "RedCourses.Services\RedCourses.Services.csproj", "{6973F6C1-F5E6-4A6C-B9F2-C3EE440253D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{5E4E43CA-902A-4736-85B6-4C081BC6D4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4E43CA-902A-4736-85B6-4C081BC6D4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E4E43CA-902A-4736-85B6-4C081BC6D4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6973F6C1-F5E6-4A6C-B9F2-C3EE440253D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6973F6C1-F5E6-4A6C-B9F2-C3EE440253D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6973F6C1-F5E6-4A6C-B9F2-C3EE440253D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6973F6C1-F5E6-4A6C-B9F2-C3EE440253D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

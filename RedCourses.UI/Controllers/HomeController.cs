@@ -8,5 +8,10 @@ namespace RedCourses.UI.Controllers
         {
             return View();
         }
+
+        public ActionResult ListCourses()
+        {
+            return PartialView();
+        }
     }
 }

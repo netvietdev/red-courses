@@ -1,4 +1,6 @@
-﻿using System.Web.Http;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using System.Web.Http;
 
 namespace RedCourses.UI.App_Start
 {
@@ -11,6 +13,13 @@ namespace RedCourses.UI.App_Start
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
+
+            config.Formatters.JsonFormatter.SerializerSettings = new JsonSerializerSettings()
+            {
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
         }
     }
 }
