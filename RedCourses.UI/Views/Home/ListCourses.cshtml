@@ -6,7 +6,8 @@
     <li>
         <a data-ng-href="#/courses/{{course.id}}">{{course.name}}</a>
         <br />
-        <a data-ng-href="#/courses/edit/{{course.id}}">Edit</a>
+        <a data-ng-href="#/courses/edit/{{course.id}}">Edit</a> |
+        <button type="button" data-ng-click="deleteCourse(course)">Delete</button>
         <p>{{course.description}}</p>
     </li>
 </ul>

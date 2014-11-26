@@ -1,39 +1,53 @@
 ﻿var appControllers = angular.module('Red.Controllers', ['Red.Services']);
 
-appControllers.controller('WelcomeCtrl', ['$scope', 'CoursesFactory', function ($scope, coursesFactory) {
+appControllers.controller('WelcomeCtrl', ['$scope', '$location', 'CoursesFactory', function ($scope, $location, coursesFactory) {
     $scope.courses = [];
 
-    coursesFactory.query(function (courses) {
-        $scope.courses = courses;
-    });
+    var getCourses = function () {
+        coursesFactory.query(function (courses) {
+            $scope.courses = courses;
+        });
+    };
+
+    getCourses();
+
+    $scope.deleteCourse = function (course) {
+        coursesFactory.delete({ id: course.id }, function (successResult) {
+            getCourses();
+        });
+    };
 }]);
 
-appControllers.controller('ViewCourseCtrl', ['$scope', '$routeParams', 'CourseFactory', function ($scope, $routeParams, courseFactory) {
+appControllers.controller('ViewCourseCtrl', ['$scope', '$routeParams', 'CoursesFactory', function ($scope, $routeParams, coursesFactory) {
     $scope.course = {};
-    courseFactory.get({ id: $routeParams.id }, function (course) {
+    coursesFactory.get({ id: $routeParams.id }, function (course) {
         $scope.course = course;
     });
 }]);
 
-appControllers.controller('AddCourseCtrl', ['$scope', '$routeParams', 'CourseFactory', function ($scope, $routeParams, courseFactory) {
-    $scope.course = new courseFactory({
+appControllers.controller('AddCourseCtrl', ['$scope', '$routeParams', '$location', 'CoursesFactory', function ($scope, $routeParams, $location, coursesFactory) {
+    $scope.course = new coursesFactory({
         name: '',
         description: ''
     });
 
     $scope.saveCourse = function () {
-        $scope.course.$save();
+        $scope.course.$save(function (successResult) {
+            $location.path('/');
+        });
     };
 }]);
 
-appControllers.controller('EditCourseCtrl', ['$scope', '$routeParams', 'CourseFactory', function ($scope, $routeParams, courseFactory) {
+appControllers.controller('EditCourseCtrl', ['$scope', '$routeParams', '$location', 'CoursesFactory', function ($scope, $routeParams, $location, coursesFactory) {
     $scope.course = {};
 
-    courseFactory.get({ id: $routeParams.id }, function (course) {
+    coursesFactory.get({ id: $routeParams.id }, function (course) {
         $scope.course = course;
     });
 
     $scope.saveCourse = function () {
-        courseFactory.update({ id: $routeParams.id }, $scope.course);
+        coursesFactory.update({ id: $routeParams.id }, $scope.course, function (successResult) {
+            $location.path('/');
+        });
     };
 }]);

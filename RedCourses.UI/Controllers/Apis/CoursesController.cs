@@ -29,5 +29,11 @@ namespace RedCourses.UI.Controllers.Apis
         {
             Services.Services.Course.UpdateCourse(id, course);
         }
+
+        // DELETE: /api/Course/{id}
+        public void Delete(Guid id)
+        {
+            Services.Services.Course.DeleteCourse(id);
+        }
     }
 }
