@@ -23,5 +23,10 @@ namespace RedCourses.UI.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult AddVideo()
+        {
+            return PartialView();
+        }
     }
 }

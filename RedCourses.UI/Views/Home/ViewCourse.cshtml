@@ -1,5 +1,17 @@
 ﻿<h2>Course details</h2>
 
+<a data-ng-href="#/courses/{{course.id}}/video/new">Add a new video</a>
+
 <h3>{{course.name}}</h3>
 
 <p>{{course.description}}</p>
+
+<h3>Videos</h3>
+
+<ul data-ng-repeat="video in course.videos">
+    <li>
+        <a>{{video.description}}</a>
+        <br />
+        <button type="button" data-ng-click="deleteVideo(video)">Delete</button>
+    </li>
+</ul>

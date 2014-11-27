@@ -2,9 +2,9 @@
 
 namespace RedCourses.Services
 {
-    public class Video
+    public class VideoDto
     {
-        public Video()
+        public VideoDto()
         {
             Id = Guid.NewGuid();
         }
