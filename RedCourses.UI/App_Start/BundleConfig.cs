@@ -10,7 +10,8 @@ namespace RedCourses.UI.App_Start
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                         "~/Scripts/app/main.js",
                         "~/Scripts/app/services.js",
-                        "~/Scripts/app/controllers.js"));
+                        "~/Scripts/app/controllers.js",
+                        "~/Scripts/app/controllers/*.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                         "~/Scripts/angular.js",
