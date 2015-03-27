@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/RedCourses.Services/bin/Debug
+/RedCourses.Services/obj/Debug
+/RedCourses.UI/bin
+*.suo
+/RedCourses.Data/bin/Debug
+/RedCourses.Data/obj/Debug
+/RedCourses.API/obj/Debug
+*.user
+/RedCourses.API/bin
+/RedCourses.Migrations/bin/Debug
+/RedCourses.Migrations/obj/Debug
+/RedCourses.Domain/bin/Debug
+/RedCourses.Domain/obj/Debug
